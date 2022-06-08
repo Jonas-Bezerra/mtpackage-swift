@@ -1,13 +1,5 @@
 import UIKit
 
-public class libViewController: UIViewController {
-    
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .cyan
-    }
-}
-
 public class lbView: UIView {
     public init() {
         super.init(frame: .zero)
@@ -19,11 +11,6 @@ public class lbView: UIView {
     }
 }
 
-
-public struct mtpackage_swift {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-        print(text)
-    }
+public struct estruturaDaLib {
+    static let staticLet: String = "Eu sou uma static let da lib"
 }
